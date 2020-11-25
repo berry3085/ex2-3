@@ -7,4 +7,4 @@ language: java
 jdk:
  - openjdk11
  
-script: ./mvnw clean install
+script: bundle exec thor build
